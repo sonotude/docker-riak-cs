@@ -52,7 +52,7 @@ function riak_cs_patch_config(){
 		        {anonymous_user_creation, true},
 		        %%{admin_key, null},
 		        %%{admin_secret, null},
-		        {cs_root_host, "s3.amazonaws.dev"},
+		        {cs_root_host, "s3.amazonaws.com"},
 		        {fold_objects_for_list_keys, true},
 		        {listener, {"0.0.0.0", 8080}}
 		    ]}
